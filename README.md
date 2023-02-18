@@ -1,17 +1,13 @@
 # Project-TextEncryptor
 
 
-## 👀 Preview:
-
-![](https://docs.google.com/drawings/d/e/2PACX-1vSUofkSRFmnFFkhBkeUGhtJZ2-0VRx60jXgZBRt0rLy7IVK0glH2D7D7pYlUo_vCxick8wRUm4Ha3ER/pub?w=928&amp;h=434)
-
 
 **Posted in the topic:**
 
 [https://github.com/topics/challengeonecodificador4](https://github.com/topics/challengeonecodificador4)
 
 
-In this opportunity I have developed a stylized text encryptor under the theme of matrix. This application has the function to encode and decode text messages in a simple way. With the aim of exchanging information with other people in a safe and fun way.
+In this opportunity I have developed a stylized text encryptor . This application has the function to encode and decode text messages in a simple way. With the aim of exchanging information with other people in a safe and fun way.
 
 Developed with HTML5, CSS, Boostrap 5 for the frontend and JavaScript in the encryption / decryption functions.
 
@@ -19,7 +15,7 @@ Developed with HTML5, CSS, Boostrap 5 for the frontend and JavaScript in the enc
 
 ## 🔗 Link:
 
-Deploy : [Github-Pages](https://jcardonamde.github.io/Project-TextEncryptor/)
+Deploy : [Github-Pages](https://github.com/DAVIDCRUZ18/)
 
 
 ## **Technologies used** 💻
