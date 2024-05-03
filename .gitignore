@@ -2,4 +2,4 @@
 
 # ignore all logs
 *.log
-*.vscode
+.vscode
