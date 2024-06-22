@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="shortcut icon" href="./imgs/favicon.ico"/>
+    <link rel="shortcut icon" href="./imgs/logo empresa david.jpg"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Fonts -->
@@ -19,7 +19,7 @@
     <img src="imgs/bg.jpg" class="body__background_video" >
     <header class="header__page d-flex flex-row justify-content-between p-2">
         <h1>
-            <img src="./imgs/logo1.png" alt="Logo Alura Latam" class="header__page--img_logo">
+            <img src="./imgs/logo empresa david.jpg" alt="Logo empresa" class="header__page--img_logo">
         </h1>
         <nav class="header__page--nav p-3">
             <ul>
@@ -62,7 +62,7 @@
             </div>
         </section>
         <section class="section__change_message">
-            <textarea cols="30" rows="10" class="section__change_message--textarea text-lowercase"></textarea>
+            <textarea class="section__change_message--textarea text-lowercase"></textarea>
             <div class="section__change_message--labels">
                 <h3 class="section__change_message--title_info1 text-center">No message <br>was found</h3>
                 <p class="section__change_message--title_info2 text-center">Enter the text you want <br>to encrypt or
@@ -73,14 +73,20 @@
             </div>
         </section>
     </main>
-    <footer class="footer d-flex flex-row justify-content-center text-center">
-        <p class="footer__info fw-bold p-3">Developed by:<a href="https://github.com/DAVIDCRUZ18" target="_blank"> David cruz </a></p>
-        <div class="footer__info--imgs p-3">
-            <a href="https://github.com/DAVIDCRUZ18" target="_blank"><img src="./imgs/social_networks/github-icon.png" alt="Logo Github" class="footer__info--img_social_network"></a>
-            <a href="https://www.linkedin.com/in/davidcruzpro/" target="_blank"><img src="./imgs/social_networks/linkedin-icon.png" alt="Logo LinkedIn" class="footer__info--img_social_network"></a>
-            <a href="https://www.youtube.com/channel/UCoiB8gyHA9FEXss6bOo4sTA" target="_blank"><img src="./imgs/social_networks/youtube-icon.png" alt="Logo Youtube" class="footer__info--img_social_network"></a>
+    <footer class="footer d-flex flex-column flex-md-row justify-content-center align-items-center text-center p-3 bg-light text-dark">
+        <p class="footer__info fw-bold mb-6 mb-md-0">Developed by: <a href="https://github.com/DAVIDCRUZ18" target="_blank" class="text-decoration-none text-dark">David Cruz</a></p>
+        <div class="footer__info--imgs d-flex justify-content-center align-items-center gap-3">
+            <a href="https://github.com/DAVIDCRUZ18" target="_blank" aria-label="GitHub" class="text-decoration-none">
+                <img src="./imgs/social_networks/github-icon.png" alt="GitHub Logo" class="footer__info--img_social_network" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.linkedin.com/in/davidcruzpro/" target="_blank" aria-label="LinkedIn" class="text-decoration-none">
+                <img src="./imgs/social_networks/linkedin-icon.png" alt="LinkedIn Logo" class="footer__info--img_social_network" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.youtube.com/channel/UCoiB8gyHA9FEXss6bOo4sTA" target="_blank" aria-label="YouTube" class="text-decoration-none">
+                <img src="./imgs/social_networks/youtube-icon.png" alt="YouTube Logo" class="footer__info--img_social_network" style="width: 30px; height: 30px;">
+            </a>
         </div>
-    </footer>
+    </footer>       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>

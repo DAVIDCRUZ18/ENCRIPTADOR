@@ -14,16 +14,12 @@ body {
 
 .body__background_video {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 105%;
-    min-height: 100%;
-    transform: translateX(calc((100% - 100vw) / 2));
+    min-width: 100%;
     z-index: -2;
 }
 
 .header__page--img_logo {
-    height: 48px;
+    height: 100px;
     width: 120px;
 }
 
@@ -267,12 +263,13 @@ body {
 .footer {
     background-color: #D8DFE8;
     color: #016339;
-    height: 60px;
+    height: 100%;
     margin-top: 20px;
 }
 
 .footer__info a {
     text-decoration: none;
+    margin-right: 30px;
 }
 
 .footer__info--imgs {
